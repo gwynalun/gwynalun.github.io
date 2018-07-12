@@ -16,6 +16,9 @@ h1 {
 #media-player {
   width: 100%;
   position: relative;
+}
+
+#media-video {
   display: block;
   max-width: 1000px;
   margin: 50px auto;
