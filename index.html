@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="style.css">
-<head>
-	<title>Gwyn</title>
-</head>
-<body>
-<h1>Gwyn</h1>
-<iframe width="100%" height="600" src="https://www.youtube.com/embed/PtsbOpRnZ3w" frameborder="0" allowfullscreen></iframe>
-
-</body>
+  <head>
+    <meta charset='utf-8' />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='media-player.js'></script>
+    <title>Gwyn</title>
+  </head>
+  <body>
+    <h1>Gwyn</h1>
+    <div id='media-player'>
+      <video id='media-video' controls>
+        <source src='bruno.mp4' type='video/mp4'>
+        <!--<source src='parrots.webm' type='video/webm'>-->
+      </video>
+      <div id='media-controls'></div>
+    </div>
+  </body>
 </html>
